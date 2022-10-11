@@ -1,0 +1,28 @@
+@charset "UTF-8";
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.conteudo{
+  background:linear-gradient(to right, var(--coresdancantes)) ;
+  width: 250px;
+  height: 90px;
+  border-radius: 10px;
+  position: relative;
+  z-index: 999;
+  animation: coresdancantes 2s linear infinite;
+}
+
+@keyframes coresdancantes {
+  100% {
+    filter: hue-rotate(360deg)
+  }
+  
+}
