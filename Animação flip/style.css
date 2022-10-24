@@ -1,0 +1,21 @@
+*{
+  background-color: black;
+
+}
+.flip-horizontal-bottom{
+  height: 200px;
+  width: 200px;
+  background-color: rgb(223, 174, 82);
+  margin: 200px;
+  display: flex;
+  padding: 10px;
+  border-radius: 20px;
+  transition: all 1s;
+
+}
+.flip-horizontal-bottom:hover{
+  transform: rotatex(-180deg)
+}
+.circle >div{
+color: white;
+}

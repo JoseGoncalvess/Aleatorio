@@ -1,0 +1,31 @@
+
+*{
+  background-color: rgb(0, 0, 0);
+}
+.caixa{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+	overflow: hidden;
+}
+
+.container img {
+	max-width: 100%;
+	-moz-transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+	transition: all 0.3s;
+}
+
+.container:hover img {
+	-moz-transform: scale(2.1);
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+}
+img{
+  width: 200px;
+
+  margin-left: 30px;
+  margin-top: 300px;
+}

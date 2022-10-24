@@ -1,0 +1,44 @@
+*{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: bold;
+  background-color: rgb(0, 0, 0);
+}
+
+span{
+  color: rgb(255, 255, 255);
+  transition: all 0.5s;
+}
+.item:hover>.borda{
+  width: 30px;
+  height: 2px;
+}
+.item:hover>span{
+  color: rgba(145, 3, 253, 0.705);
+  animation: go-back 1s infinite alternate;
+}
+.item{
+ display: flex;
+ transition: all 0.5s;
+ cursor:pointer;
+ height: 50px;
+ width: -70px;
+ justify-content: center;
+ align-items: center;
+ flex-direction: column;
+ 
+}
+@keyframes go-back{
+  from{
+    transform: translate(2px);
+  }
+  to{
+    transform: translate(-50px);
+  }
+}
+.borda{
+  width: 0px;
+  height: 3px;
+  background-color: rgb(255, 255, 255);
+  transition: all 0.5s;
+  animation-duration: 0.5s;
+}

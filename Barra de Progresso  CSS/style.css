@@ -1,0 +1,32 @@
+
+*{
+background-color: white;
+}
+h1{
+  font: 34px;
+
+  width: 100%;
+  height: 75px;
+}
+.container{
+  margin: 25px 0;
+}
+.container{
+  font: bold 18px arial, helvetica, sans-serif;
+  letter-spacing:  2px;
+  margin-bottom: 10px;
+  color: #1117ba;
+}
+.bar{
+  height: 15px;
+  width: 300px;
+  background-color: #c5c5c5;
+  border-radius: 25px;
+  margin-bottom: 25px;
+}
+.progress-bar{
+height: 100%;
+background-color: rgb(40, 9, 153);
+border-radius: 25px 0 0 25px;
+position: relative;
+}

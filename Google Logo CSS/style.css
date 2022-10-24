@@ -1,0 +1,43 @@
+.Google{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background: rgb(255, 255, 255);
+  border-top:  50px solid #EA4335;
+  border-right: 50px solid #4285f4;
+  border-bottom:  50px solid #34A853;
+  border-left: 50px solid #FBB605;
+
+  /*BESIRA FLIP*/
+  display: flex;
+  transition: all 1s;
+}
+.Google::before{
+  content: '';
+  position: absolute;
+  top: -146px;
+  left: 80px;
+  border-top:  100px solid transparent;
+  border-right: 100px solid transparent;
+  border-left: 100px solid transparent;
+ border-bottom: 100px solid #fff; 
+}
+
+.Google::after{
+  content: '';
+  position: absolute;
+  top: 36%;
+  left: 50%;
+  width: 80px;
+  height: 50px;
+  background: 65px #4285f4;
+}
+
+/*BETSEIRA DO FLIP*/
+.Google:hover{
+  transform: rotatex(-360deg)
+}

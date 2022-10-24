@@ -1,0 +1,16 @@
+
+span{
+  box-shadow: inset 0 0 0 0 #6ad1a1;
+  color: #6ad1a1;
+  margin: 0 -.25rem;
+    padding: 0 .25rem;
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+    font-family: Roboto;
+    font-size: 34px;
+    font-weight: bold;
+
+}
+span:hover{
+box-shadow: inset 250px 0 0 0 #6ad1a1;
+color: #000000;
+}
